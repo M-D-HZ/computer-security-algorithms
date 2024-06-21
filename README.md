@@ -1,8 +1,7 @@
 # Setup
-There are three containers; Client, Flaskr and Student, that are connected by a bridge network named `cns`
+There are three containers; Client, Flaskr, that are connected by a bridge network named `cns`
   * **Client**: a container with Firefox running on it. To access Firefox from host, connect via `http://localhost:5800`.
   * **Flaskr**: is hosting an HTTP server.
-  * **Student**: this is the eavesdropper (man-in-the-middle) container.
 
 # How to run
 1. Log into container repository,
