@@ -1,0 +1,13 @@
+{
+  "encryption": {
+    "method": "salsa20",
+    "_method": "aes256cbc",
+    "keyid": "../implementation/preshared_key.txt"
+  },
+  "mac": {
+    "method": "sha1",
+    "_method": "sha512hmac",
+    "keyid": "../implementation/preshared_key.txt"
+  },
+  "order": 1
+}

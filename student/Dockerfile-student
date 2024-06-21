@@ -1,0 +1,6 @@
+FROM ghcr.io/computer-and-network-security/cns_student:2023.1
+
+WORKDIR /student
+
+COPY requirements.txt /student/requirements.txt
+RUN pip install -r requirements.txt
