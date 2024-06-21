@@ -1,11 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/eJG8jZLy)
-# Group
-**Group 18**:
-- Frederic Hamelink
-- Anass Hamzaoui  
-
-Report can be found in the `docs` directory.
-
 # Setup
 There are three containers; Client, Flaskr and Student, that are connected by a bridge network named `cns`
   * **Client**: a container with Firefox running on it. To access Firefox from host, connect via `http://localhost:5800`.
